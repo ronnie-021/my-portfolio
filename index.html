@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ronnie P. Monterola | BSIT Portfolio</title>
+  <meta name="description" content="Portfolio of Ronnie P. Monterola, BSIT student at City College of Calamba.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#about" class="logo">RM<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about" class="hero">
+      <div class="hero-copy">
+        <p class="label">BS Information Technology</p>
+        <h1>Ronnie P. Monterola</h1>
+        <p class="school">City College of Calamba</p>
+        <p class="bio">
+          I'm a BSIT student with a strong interest in technology, particularly networking,
+          web development, and artificial intelligence. I enjoy exploring how systems work
+          and building practical solutions, while continuously improving my programming,
+          frontend development, and networking skills with the goal of becoming a versatile
+          IT professional.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#projects">See my projects</a>
+          <a class="btn ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="images/ronnie-monterola.jpg" alt="Ronnie P. Monterola in formal attire">
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2><span class="num">01</span> Skills</h2>
+
+      <div class="skill-grid">
+        <div class="skill-box">
+          <h3>Technical</h3>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>Design</h3>
+          <ul class="tags">
+            <li>Figma</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>Certification</h3>
+          <ul class="tags">
+            <li>Computer Systems Servicing NC II</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>Interests</h3>
+          <ul class="tags">
+            <li>Networking</li>
+            <li>Web Development</li>
+            <li>Artificial Intelligence</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2><span class="num">02</span> Projects</h2>
+
+      <article class="project">
+        <div class="shot">
+          <img src="images/quizquest.png?v=1" alt="Screenshot of the QuizQuest desktop quiz login interface">
+        </div>
+        <div class="project-info">
+          <p class="label">Project 01</p>
+          <h3>QuizQuest</h3>
+          <p>
+            I independently designed and developed QuizQuest, a desktop-based quiz game,
+            from its user interface to its core functionality. I implemented the login
+            system, quiz gameplay features, and priority-based logic to manage the
+            application's processes and overall game flow.
+          </p>
+          <p class="tools-title">Tools used</p>
+          <ul class="tags">
+            <li>Eclipse IDE</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="shot">
+          <img src="images/pesopal.png?v=2" alt="Screenshot of the PesoPal budget tracking app"
+               onerror="this.parentElement.classList.add('missing')">
+        </div>
+        <div class="project-info">
+          <p class="label">Project 02</p>
+          <h3>PesoPal</h3>
+          <p>
+            I contributed to the development of PesoPal, a budget tracking application,
+            by working on its database. My role focused on organizing and managing the data
+            structure needed to store and retrieve users' budget and expense records.
+          </p>
+          <p class="tools-title">Tools used</p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Vanilla JavaScript</li>
+            <li>Database</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="shot">
+          <img src="images/kinamia.png?v=2" alt="Screenshot of the Kinamia Steakhouse sales and inventory system"
+               onerror="this.parentElement.classList.add('missing')">
+        </div>
+        <div class="project-info">
+          <p class="label">Project 03</p>
+          <h3>Kinamia Steakhouse: Web-Based Sales and Inventory Management System</h3>
+          <p>
+            I helped design and develop a web-based sales and inventory management system
+            for Kinamia Steakhouse. The system includes customer ordering, cashier
+            transactions, kitchen order monitoring, and inventory management to improve
+            daily business operations.
+          </p>
+          <p class="tools-title">Tools used</p>
+          <ul class="tags">
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2><span class="num">03</span> Contact</h2>
+      <p class="contact-text">Want to work together or just say hi? Send me an email.</p>
+      <a class="email" href="mailto:ronniemonterola12@gmail.com">ronniemonterola12@gmail.com</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2026</span> Ronnie P. Monterola &middot; City College of Calamba</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
